@@ -18,6 +18,8 @@ Rétegszemléletre épül: Model-View-Controller szemlélet, Service és Aspect 
 
 Az aspektusorientált programozás paradigmáját használva a Controller és View nevű rétegekben történő függvényhívásokat konzolon logolja a szoftver. A View rétegekben két "fakeController" nevű osztály található, mely az AOP szempontjából ugyan controller feladatokat lát el, de a grafikus megjelenítést szolgálja teljes mértében, így került a View rétegbe.
 
+Alkalmazásszerver: Tomcat, Adatbázis: h2database, Spring Boot keretrendszer, lombok, REST API, és AOP.
+
 ### Az alábbi elérési utak segítéségével a Postman alkalmazásban tesztelni is tudja a kódot:
 
 Grafikus megjelenéssel (HTML) bíró aloldalak:
