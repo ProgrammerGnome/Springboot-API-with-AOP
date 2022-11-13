@@ -21,6 +21,7 @@ public class ServerLog {
     @Around(POINTCUT)
     @SneakyThrows
     public Object logArroundExec(ProceedingJoinPoint pjp) {
+        log.info("Before {}", constructLogMsg(pjp));
         var proceed = pjp.proceed();
         log.info("After {} with result: {}", constructLogMsg(pjp), proceed.toString());
         return proceed;
@@ -29,6 +30,7 @@ public class ServerLog {
     @Around(POINTCUT2)
     @SneakyThrows
     public Object logArroundExec2(ProceedingJoinPoint pjp) {
+        log.info("Before {}", constructLogMsg(pjp));
         var proceed = pjp.proceed();
         log.info("After {} with result: {}", constructLogMsg(pjp), proceed.toString());
         return proceed;
