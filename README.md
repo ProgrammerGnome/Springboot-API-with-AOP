@@ -32,3 +32,6 @@ http://localhost:8080/storages/{id}   ( GET )     -> Lekérdezi az adatbázisban
 http://localhost:8080/delete/{id}     ( DELETE )  -> Törli a megadott ID-hez rendelt adatot az adatbázisból.
 http://localhost:8080/donwload/{id}   ( POST )    -> Letölti a számítógépére a megadott ID-hez rendelt adatokat.
 ```
+### A főoldal, azaz a http://localhost:8080:
+
+![kép](https://user-images.githubusercontent.com/69594158/201531476-75dbd277-9d29-4215-9376-0bd1c1e8f417.png)
