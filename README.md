@@ -1,7 +1,7 @@
 # Simple Spring Boot REST API with AOP
 
 Ez egy REST API, melyet böngészőjében a ```http://localhost:8080``` URL alatt tud megtekinteni.
-Amennyiben a szoftver egy igazi szerveren fut, akkor a localhost-ot ki kell cserélni az IP címre, a portot pedig a megadottra.
+Amennyiben a szoftver egy igazi szerveren fut, akkor a localhost-ot ki kell cserélni az IP címre, a portot pedig a megadottra. A futtatandó java osztály a ApplicationMainClass.
 
 ### A szoftver rendeltetése
 Alapvetően multifunkcionális szoftverről van szó. Mely arra szolgál, hogy mindenfélre fájlformátumú fájlokat (application.properties-ben talál információkat a fájlok méretkorlátaira vonatkozóan) tároljunk és kezeljünk egy adatbázisban. Két funkcióhoz létezik frontend, a többihez még sajnos csak backend.
