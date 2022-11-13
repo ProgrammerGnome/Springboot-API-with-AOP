@@ -16,7 +16,7 @@ Tartalmaz Interface-t.
 
 Rétegszemléletre épül: Model-View-Controller szemlélet, Service és Aspect rétegekkel kiegészítve.
 
-Az aspektusorientált programozás paradigmáját használva minden HTML és JSON oldal megtekintését konzolon logolja a szoftver. Viszont ezt csak akkor teszi meg, ha ráfrissít az adott oldalra. Magyarán a böngészőből való első megtekintéseket logolja, függetlenül attól, hogy melyik aloldalra érkezett a megtekintés.
+Az aspektusorientált programozás paradigmáját használva a Controller és View nevű rétegekben történő függvényhívásokat konzolon logolja a szoftver. A View rétegekben két "fakeController" nevű osztály található, mely az AOP szempontjából ugyan controller feladatokat lát el, de a grafikus megjelenítést szolgálja teljes mértében, így került a View rétegbe.
 
 ### Az alábbi elérési utak segítéségével a Postman alkalmazásban tesztelni is tudja a kódot:
 
